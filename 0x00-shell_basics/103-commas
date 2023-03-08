@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a -1 --group-directories-first | sed -E 's/(.+)(\/?$)/\1\2,/' | LC_COLLATE=C sort -df | tr -d '\n' && echo
+ls -mpadfv1 --group-directories-first
