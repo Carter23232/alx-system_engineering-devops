@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -mpadfv1 --group-directories-first
+ls -mpa1 --group-directories-first
