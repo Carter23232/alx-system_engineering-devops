@@ -1,2 +1,2 @@
 #!/bin/bash
-sed 's/[cC]//g' $1
+read -p "Enter a string: " input_string && echo $input_string | tr -d 'cC'
