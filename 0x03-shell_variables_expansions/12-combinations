@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "\n"{a..z}{z..a}|sort|awk '{gsub(/oo/,"")}1'|awk NF
+echo {a..z}{a..z} | tr ' ' '\n' | grep -v 'oo'
