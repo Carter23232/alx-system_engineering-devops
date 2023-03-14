@@ -1,2 +1,2 @@
 #!/bin/bash
-head -n '3p'| tail -n '1p'
+head -n 3 iacta | tail -n 1 
